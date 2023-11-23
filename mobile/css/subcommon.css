@@ -1,0 +1,102 @@
+/* 서브페이지내용 */
+.visual {
+  overflow: hidden;
+  position: relative;
+}
+.visual img {
+  width: 100%;
+}
+.visual span {
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+  font-family: "HanwhaR";
+  margin-left: -37px;
+  font-size: 22px;
+}
+
+/* 서브네비 */
+
+.sub_nav {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "HanwhaR";
+  color: #fff;
+  background: #000;
+  z-index: 50;
+}
+.sub_nav .arrow {
+  overflow: hidden;
+  display: block;
+  font-size: 18px;
+  padding:15px 0 15px 15px;
+  text-align: left;
+  transition: all 0.5s;
+  color: #fff;
+ 
+}
+.sub_nav .arrow i {
+  font-size: 24px;
+  color: #fff;
+  float: right;
+  margin-right: 15px;
+}
+.sub_nav .arrow:hover {
+}
+.sub_nav .aList {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 54px;
+}
+.sub_nav .aList li {
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.sub_nav .aList li a {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  padding: 15px 0;
+  transition: all 0.5s;
+}
+.sub_nav .aList li:hover a {
+  color: #fff;
+  background: black;
+}
+
+/* 본문 제목*/
+
+#content .title_Area {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+#content .title_Area h3 {
+  display: block;
+  color: #333;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  font-family: "HanwhaB";
+  margin-bottom: 50px;
+}
+#content .title_Area::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background: #ec7000;
+  position: absolute;
+  left: 50%;
+  top: 70px;
+  margin-left: -50px;
+  margin-bottom: 0;
+}

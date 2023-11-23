@@ -1,0 +1,43 @@
+
+section{overflow: hidden; margin: 0 2%;}
+table {width: 100%;
+    float: left;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    margin-bottom: 100px;
+  }
+  .t1 {}
+  
+  table td,
+  th {
+      padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "HanwhaGothicT";
+  
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+  }
+  table th {
+    text-align: right;
+  }
+  table td {
+    text-align: right;
+
+  }
+  
+  .gray {
+    background: #eee;
+  }
+  .color {
+    background: #ffcc99;
+  }
+  table .st{text-align: left;}
+  
+  table .st, .sd{
+      font-family: "HanwhaGothicL";
+    border-top: 3px solid #999;
+  }
+  table thead .mt {
+    border-bottom: 3px solid #666;
+    text-align: center;
+  }

@@ -1,0 +1,110 @@
+#content .title_Area {
+    margin-bottom: 50px;
+  }
+  #content .title_Area h3 {
+  }
+  #content .title_Area p {
+    margin: 0 2%;
+    font-family: "HanwhaGothicL";
+    font-size: 17px;
+  }
+  /* 본문공동 */
+  .gallery-top {
+    margin: 0 2%;
+  }
+  .gallery-top h4 {
+      margin: 40px 0 20px;
+    color: #ec7000;
+    font-size: 24px;
+    font-family: "HanwhaB";
+  }
+  .gallery-top .headbox {
+      display: block;
+      width: 230px;
+      height: 18px;
+      transform: skew(-30deg);
+      position: absolute;
+      background: #ec7000;
+      opacity: 50%;
+      top: 50px;
+      left: 10px;
+  }
+
+  .gallery-top .swiper-slide:nth-of-type(2) .headbox{    width: 220px;}
+  .gallery-top .swiper-slide:nth-of-type(3) .headbox{    width: 145px;}
+  .gallery-top .swiper-slide:nth-of-type(4) .headbox{    width: 90px;}
+    .gallery-top .swiper-slide:nth-of-type(5) .headbox{    width: 160px;}
+
+
+  .gallery-top  li div dl {margin-bottom: 20px;}
+  .gallery-top li div dl dt{ font-family: "HanwhaR";  font-size: 21px; margin-bottom: 15px;}
+  .gallery-top li div  dl dd{text-align: justify; font-size: 15px; margin-bottom: 10px;color: #eee;}
+  
+  
+  .gallery-top li img {
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px
+  }
+  /*텝 네비 */
+  .gallery-thumbs {background: #fff; color: #333;}
+  
+   .gallery-thumbs {
+    position: relative;
+    overflow: hidden;
+  
+    padding: 10px 2% 20px;
+  }
+  .gallery-thumbs .swiper-wrapper {
+  }
+  
+   .gallery-thumbs .swiper-wrapper .swiper-slide {
+    background: #fff;
+    margin: 0;
+    font-family: "HanwhaGothicB";
+    font-size: 16px;
+    float: left;
+    color: #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 8px 5px;
+    text-align: center;
+    width: 50%;
+  }
+   .gallery-thumbs .swiper-slide-thumb-active {
+    background: #ec7000;
+    color: #fff;
+  }
+  /* #content #Business .gallery-thumbs .visnav div.active {
+    background: orange;
+    color: #fff;
+  } */
+  
+   div .gallery-top {
+    width: 90%;
+    margin: 20px auto 0;
+  }
+  
+  div .gallery-top li img {
+    width: 100%;
+    border-radius: 25px;
+  }
+  .swiper-container-horizontal > .swiper-scrollbar {
+    position: absolute;
+    left: 1%;
+    bottom: 3px;
+    z-index: 50;
+    height: 5px;
+    width: 98%;
+  }
+  
+  .swiper-container-horizontal > .swiper-scrollbar .swiper-scrollbar-drag {
+    background: #ec7000;
+  }
+  
+  
+  
+  
+  /* 본문 */
+  .content_area{color: #fff; background: black;}
+  

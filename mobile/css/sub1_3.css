@@ -1,0 +1,164 @@
+#content .title_Area::after {
+  content: "";
+  width: 160px;
+  margin-left: -79px;
+}
+
+/* 본문  */
+
+.content_area {
+  overflow: hidden;
+  margin: 0 2%;
+}
+.content_area img {
+  width: 100%;
+}
+.content_area .tap_menu {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+}
+.content_area .tap_menu ul {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content_area .tap_menu ul li {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+}
+.content_area .tap_menu ul li a {
+  font-size: 20px;
+  font-family: "HanwhaB";
+  text-align: center;
+  color: #666;
+}
+.content_area .tap_menu ul li a:hover {
+  color: #333;
+}
+.content_area .tap_menu ul .current {
+  color: #333;
+}
+
+.content_area .tap_menu ul li span {
+  display: block;
+  position: absolute;
+  background: black;
+  transition-property: width, height;
+  transition-duration: 0.5s;
+}
+.content_area .tap_menu ul li span:nth-of-type(1) {
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+}
+.content_area .tap_menu ul li:hover span:nth-of-type(1) {
+  width: 400px;
+  transition-delay: 0s;
+}
+
+/* 본문 부제목 */
+.content_area section {
+}
+.content_area section h3 {
+  text-align: center;
+  color: #ec7000;
+  font-family: "HanwhaB";
+  margin: 20px 0 ;
+  font-size: 20px;
+}
+.content_area section h3 span {
+  display: block;
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+}
+.content_area section > p {
+  margin: 0 2%;
+  font-family: "HanwhaGothicR";
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+.content_area section div {
+  position: relative;
+  margin: 50px 0;
+}
+.content_area section div h4 {
+  font-size: 15px;
+  font-family: "HanwhaR";
+  color: #ec7000;
+  margin-bottom: 20px;
+}
+
+/* 자회사 */
+
+.content_area .inbox div .headbox{
+    display: block;
+    width: 110px;
+    height: 10px;
+    transform: skew(-30deg);
+    position: absolute;
+    background: #ec7000;
+    opacity: 20%;
+    top: 8px;
+    left: 10px;
+
+}
+.content_area .inbox div:nth-of-type(1) .headbox{
+
+  width: 120px
+
+}
+
+.content_area .inbox div p{
+  line-height: 1.2em;
+  font-family: "HanwhaGothicL";
+}
+.content_area .inbox .link{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.content_area .inbox table{ width: 100%;
+  border-collapse: collapse; }
+.content_area .inbox table tr{ overflow: hidden;box-sizing: border-box; border: 1px solid #ccc }
+.content_area .inbox table tr th{background: black; color: #fff; width:20%; font-size: 14px }
+.content_area .inbox table tr td{text-align: justify; padding: 10px;}
+.content_area .inbox table tr td .orn{color: #ec7000;   font-family: "HanwhaL";}
+.content_area .inbox table i{margin-left: 5px;}
+
+
+
+/* 해외지사 */
+
+
+.content_area .outbox div .headbox{
+  width: 165px;
+  display: block;
+  height: 10px;
+  transform: skew(-30deg);
+  position: absolute;
+  background: #ec7000;
+  opacity: 20%;
+  top: 8px;
+  left: 10px;
+}
+.content_area .outbox div .outcon{}
+.content_area .outbox div .outcon dl{padding-bottom:10px; overflow: hidden; margin-bottom: 20px; border-bottom: dashed 1px #ccc;}
+.content_area .outbox div .outcon dl dt{
+  text-align: left;
+  font-size: 1em;
+  padding: 10px 0;
+  font-family: "HanwhaL";
+  font-weight: 700;
+}
+.content_area .outbox div .outcon dl dd{margin: 0 0 5px;}
+.content_area .outbox div .outcon dl .call_dd{}
+.content_area .outbox div .outcon dl .mail_dd{}
+.content_area .outbox div .outcon dl dd i{margin-right: 5px;}

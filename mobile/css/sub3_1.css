@@ -1,0 +1,349 @@
+#content .title_Area {
+  margin-bottom: 50px;
+}
+#content .title_Area h3 {
+}
+#content .title_Area p {
+  text-align: center;
+  margin: 0 2%;
+  font-family: "HanwhaGothicL";
+  font-size: 18px;
+}
+
+/* 탭메뉴 */
+.content_area .tap_menu {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+}
+.content_area .tap_menu ul {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content_area .tap_menu ul li {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+}
+.content_area .tap_menu ul li a {
+  font-size: 20px;
+  font-family: "HanwhaB";
+  text-align: center;
+  color: #666;
+}
+.content_area .tap_menu ul li a:hover {
+  color: #333;
+}
+.content_area .tap_menu ul .current {
+  color: #333;
+}
+
+.content_area .tap_menu ul li span {
+  display: block;
+  position: absolute;
+  background: black;
+  transition-property: width, height;
+  transition-duration: 0.5s;
+}
+.content_area .tap_menu ul li span:nth-of-type(1) {
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+}
+.content_area .tap_menu ul li:hover span:nth-of-type(1) {
+  width: 400px;
+  transition-delay: 0s;
+}
+
+/*  */
+.content_area section {
+  overflow: hidden;
+  position: relative;
+}
+.content_area section:nth-of-type(1) > div:nth-of-type(1) {
+  margin: 0 2%;
+}
+.content_area section h4 {
+  margin: 40px 0 20px;
+  color: #ec7000;
+  font-size: 24px;
+  font-family: "HanwhaB";
+}
+.content_area section .headbox {
+  margin: 0 2%;
+  display: block;
+  width: 70px;
+  height: 18px;
+  transform: skew(-30deg);
+  position: absolute;
+  background: #ec7000;
+  opacity: 20%;
+  top: 50px;
+  left: 10px;
+}
+.content_area section:nth-of-type(2) .headbox {
+  margin: 0 2%;
+  display: block;
+  width: 98px;
+  height: 18px;
+  transform: skew(-30deg);
+  position: absolute;
+  background: #ec7000;
+  opacity: 20%;
+  top: 50px;
+  left: 5px;
+}
+
+.content_area section:nth-of-type(1) > div:nth-of-type(1) p {
+  font-family: "HanwhaGothicL";
+  margin-top: 20px;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.content_area section:nth-of-type(1) .hoverbox {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.content_area section:nth-of-type(1) .hoverbox > img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.content_area section:nth-of-type(1) .hoverbox a {
+  position: absolute;
+  display: block;
+  color: #666;
+}
+.content_area section:nth-of-type(1) .hoverbox a span {
+  font-size: 3rem;
+}
+.content_area section:nth-of-type(1) .hoverbox .btn1 {
+  top: 180px;
+  left: 60px;
+}
+.content_area section:nth-of-type(1) .hoverbox .btn2 {
+  bottom: 70px;
+  right: 90px;
+}
+
+.content_area section:nth-of-type(1) .hoverbox #Siheung {
+  border: 1px solid #333;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  overflow: hidden;
+  display: none;
+}
+
+.content_area section:nth-of-type(1) .hoverbox #Okpo {
+  border: 1px solid #333;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  overflow: hidden;
+  display: none;
+}
+.content_area section:nth-of-type(1) .hoverbox div p {
+  font-size: 1.3rem;
+  text-align: center;
+  background: black;
+  color: #fff;
+  padding: 5px;
+  font-family: "HanwhaL";
+}
+
+/* 버튼 */
+
+.content_area section:nth-of-type(1) .hoverbox .one {
+  top: 280px;
+  left: 570px;
+}
+.content_area section:nth-of-type(1) .hoverbox .two {
+  top: 620px;
+  left: 735px;
+}
+.content_area section:nth-of-type(1) .hoverbox .one:hover {
+  transform: scale(1.2);
+  color: black;
+}
+.content_area section:nth-of-type(1) .hoverbox .one:hover #Siheung {
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.content_area section:nth-of-type(1) .hoverbox .two:hover {
+  transform: scale(1.2);
+  color: black;
+}
+
+/* 본문 섹션 2번째 컨텐츠 */
+.contactbox {
+  width: 100%;
+  background-color: black;
+  padding-bottom: 20px;
+}
+.content_area section:nth-of-type(1) .swiper-container {
+  margin: 0 3%;
+  padding: 50px 0;
+}
+.content_area section:nth-of-type(1) .swiper-container ul .swiper-slide {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  float: left;
+  text-align: center;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(243, 243, 243, 1) 50%,
+    rgba(237, 237, 237, 1) 51%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.content_area section:nth-of-type(1) div ul {
+}
+.content_area section:nth-of-type(1) .swiper-slide span {
+  font-size: 4rem;
+  color: #333;
+  margin-top: 40px;
+}
+
+.content_area section:nth-of-type(1) .swiper-slide h5 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-family: "HanwhaR";
+}
+.content_area section:nth-of-type(1) li p {
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  font-family: "HanwhaGothicL";
+  padding: 10px 30px;
+  text-align: justify;
+}
+
+/* hover됐을떄  */
+.content_area section:nth-of-type(1) .swiper-slide div {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 700px;
+  transition: all ease-in-out 1s;
+  opacity: 0;
+  background: linear-gradient(
+    135deg,
+    #ffb76b 0%,
+    #ffa73d 50%,
+    #ff7c00 51%,
+    #ff7f04 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.content_area section:nth-of-type(1) .swiper-slide div dl dt,
+.content_area section:nth-of-type(1) .swiper-slide div span {
+  color: #fff;
+}
+.content_area section:nth-of-type(1) .swiper-slide div dl dt {
+  text-align: center;
+
+  font-family: "HanwhaR";
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.content_area section:nth-of-type(1) .swiper-slide dd {
+  text-align: left;
+  font-size: 1.3rem;
+  font-family: "HanwhaGothicL";
+  margin: 10px 5%;
+  color: #fff;
+  padding: 0 10px;
+}
+.content_area section:nth-of-type(1) .swiper-slide dd:nth-of-type(1) {
+  margin-top: 30px;
+}
+
+.content_area section:nth-of-type(1) .swiper-slide:hover div {
+  opacity: 1;
+  top: 0;
+}
+section:nth-of-type(1) .swiper-pagination-bullet {
+  background: #eee;
+}
+section:nth-of-type(2).swiper-pagination-bullet {
+  background: #ccc;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background: #ec7000;
+}
+
+/* 연구설비 */
+.content_area section:nth-of-type(2) {margin: 0 2%;
+padding-bottom: 30px;}
+.content_area section:nth-of-type(2) div {overflow: hidden;
+ margin: 10% 0 0;
+}
+.content_area section:nth-of-type(2) div ul{ padding-bottom: 20px;}
+
+.content_area section:nth-of-type(2) .swiper-slide {
+  padding-top: 20px;
+width: 100px;}
+.content_area section:nth-of-type(2) .swiper-slide img {
+  width: 80%;
+  border-radius: 50%;
+  margin: 0 10%;
+  border: 5px solid #ec7000;
+  transition: all ease-in 0.2s;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+.content_area section:nth-of-type(2) .swiper-slide:hover img {
+  transform: scale(1.05);
+}
+.content_area section:nth-of-type(2) .swiper-slide dl {
+overflow: hidden;
+margin-top: 10px;
+padding: 20px;
+}
+.content_area section:nth-of-type(2) .swiper-slide dl dt {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "HanwhaR";
+  margin-bottom: 5px;
+}
+.content_area section:nth-of-type(2) li dl dt span {
+  font-size: 1rem;
+  font-family: "HanwhaGothicR";
+  display: block;
+}
+
+.content_area section:nth-of-type(2) li dl dd {
+  font-size: 1rem;
+  font-family: "HanwhaGothicL";
+  text-align: justify;
+  line-height: 1em;
+  margin: 20px 25px 0;
+}

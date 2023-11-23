@@ -1,0 +1,98 @@
+.way {
+  position: relative;
+    overflow: hidden;
+    margin: 0 2% 50px;
+
+  }
+  .way h3 { color: #ec7000;
+    font-family: "HanwhaR";
+    font-size: 20px;
+    text-align: left;
+    margin:90px 0px 50px 15px;
+  }
+  .way .headbox{
+   
+    display: block;
+    width: 165px;
+    height: 10px;
+    transform: skew(-30deg);
+    position: absolute;
+    background: #ec7000;
+    opacity: 20%;
+    top: 104px;
+    left: 25px;
+
+}
+.way:nth-of-type(2) .headbox{    width: 100px;}
+.way:nth-of-type(3) .headbox{width: 145px;}
+  
+  .way #map1,
+  .way #map2,
+  .way #map3 {
+    width: 96%;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-collapse: collapse;
+  }
+  
+    .tap_menu {
+    margin: 20px 2% 0;
+overflow: hidden;
+
+  }
+  .tap_menu ul { 
+    width: 99%;
+
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin: 0 .5% auto;
+  }
+
+  .tap_menu ul li {
+    width: 33%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+
+    
+
+    
+  }
+
+  
+  .tap_menu ul li a {
+    font-size: 18px;
+    font-weight: 700;
+      color: #666;
+
+  }
+  .tap_menu ul li:nth-of-type(2){
+    padding:10px 0 11.5px 0;
+  }
+  .tap_menu ul li:hover a {
+  
+      color: #333;
+  }
+  
+  .tap_menu span {display: block; position: absolute;background:black; transition-property: width, height;transition-duration: .5s;}
+  .tap_menu span:nth-of-type(1){ bottom: 0; left: 0; height: 3px; width: 0;}
+  .tap_menu li:hover span:nth-of-type(1) {width: 100%; transition-delay: 0s; }
+
+
+
+
+  .way .textcon{overflow: hidden; margin: 5% 2%;}
+  
+  .way  .textcon div{overflow: hidden;}
+  .way  .textcon div p {
+    overflow: hidden;
+    font-family: 'HanwhaGothicL';
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+  }
+  .way  .textcon div p i{margin-right: 10px; color: #999;    font-size: 1rem;}
+
+  .way  .textcon img {display: block; float: left; width: 20px; margin-right: 10px;}
+

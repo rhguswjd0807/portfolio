@@ -1,0 +1,132 @@
+#content .title_Area::after {
+  content: "";
+  width: 100px;
+  margin-left: -50px;
+}
+
+/* 본문 */
+
+.contentArea {
+  overflow: hidden;
+}
+.contentArea .overview {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.contentArea h4 {
+  font-family: "HanwhaB";
+  font-size: 1.3rem;
+  margin: 20px 2% 8%;
+  color: #ec7000;
+}
+
+.contentArea .overview .headbox {
+  display: block;
+  width: 91px;
+  height: 10px;
+  transform: skew(-30deg);
+  position: absolute;
+  background: #ec7000;
+  opacity: 20%;
+  top: 14px;
+  left: 10px;
+}
+.contentArea .overview > p {
+  font-size: 17px;
+  font-family: "HanwhaGothicL";
+  line-height: 1.5rem;
+  margin: 10px 2% 50px;
+  text-align: justify;
+}
+.contentArea .orn {
+  color: #ec7000;
+  font-family: "HanwhaR";
+  font-size: 1.2rem;
+}
+.contentArea .overview div {
+  position: relative;
+  margin: 0 auto;
+}
+.contentArea .overview div img {
+  width: 96%;
+  margin: 0 2% 80px;
+  border-radius: 20px;
+}
+.contentArea .overview div p {
+  width: 75%;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  left: 20%;
+  bottom: 15%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contentArea .overview .backorn {
+  width: 96%;
+  background: rgba(252, 140, 40, 0.4);
+  font-size: 15px;
+  font-family: "HanwhaGothicR";
+  line-height: 1.5rem;
+  padding: 2%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.contentArea .overview table {
+  overflow: hidden;
+  margin: 20px 2% 1%;
+  border-collapse: collapse;
+}
+.contentArea .overview table th,.contentArea .overview table td{border: 1px solid #ccc;
+  padding: 10px 5px;}
+  .contentArea .overview table td{text-align: justify;}
+.contentArea .overview table td.a1{width: 50%;}
+.contentArea .overview table td.Right{width: 15%;} 
+.contentArea .overview tr {
+  width: 100%;
+  overflow: hidden;
+}
+.contentArea .overview tr th {
+  width: 25%;
+  color: #fff;
+  background: #000;
+}
+
+
+/* 핵심가치 */
+.contentArea .about {
+  overflow: hidden;
+  padding-top: 30px;
+  background: #000;
+  position: relative;
+  padding-bottom: 50px;
+}
+.contentArea .about  .headbox {
+  display: block;
+  width: 164px;
+  height: 10px;
+  transform: skew(-30deg);
+  position: absolute;
+  background: #ec7000;
+  opacity: 40%;
+  top: 64px;
+  left: 18px;
+}
+.contentArea .about p{color: #fff; font-size: 17px;   font-size: 17px;
+  font-family: "HanwhaGothicL";
+  line-height: 1.5rem;
+  margin: 10px 2% 20px;}
+
+  .swiper-container-cube .swiper-cube-shadow { background: #fff;    opacity: .4;
+  }
+  .contentArea .about .swiper-container{overflow: hidden; padding:20px 4% 60px;}
+  .contentArea .about .swiper-wrapper{}
+  .contentArea .about .swiper-slide{overflow: hidden; position: relative;}
+  .contentArea .about .swiper-slide img{width: 100%; margin: 0 auto;}
+  .contentArea .about .swiper-slide h4{position: absolute; top: 15px; left: 50%; text-align: center; color: #fff; margin-left: -71px;}
+  .contentArea .about .swiper-slide h4 span{display: block;font-size: 20px;color: #ec7000;}
+  .contentArea .about .swiper-slide:nth-of-type(1) p{position: absolute; bottom: 0px; left: 50%; margin-left: -123.5px; text-align: center;}
+  .contentArea .about .swiper-slide:nth-of-type(2) p{position: absolute; bottom: 0px; left: 50%; margin-left: -115px; text-align: center;}
+  .contentArea .about .swiper-slide:nth-of-type(3) p{position: absolute; bottom: 0px; left: 50%; margin-left: -104px; text-align: center;}

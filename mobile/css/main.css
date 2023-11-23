@@ -1,0 +1,388 @@
+/* CSS Document */
+
+/* 비주얼 영역 */
+.visual .swiper-container {
+  width: 100%;
+  height: auto;
+}
+.visual .swiper-slide {
+  text-align: center;
+  background: #fff;
+}
+
+.visual {
+  position: relative;
+}
+.visual p {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 2em;
+  color: #fff;
+  margin: 3%;
+  font-family: "HanwhaR";
+}
+.visual img {
+  width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+.swiper-scrollbar {
+  background: #fff;
+}
+.swiper-scrollbar-drag {
+  background: orange;
+}
+/* .visual .swiper-button-next, .visual .swiper-button-prev{} */
+#content {
+  background: #fff;
+}
+/* about */
+
+#content #about .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#content #about .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+
+#content #about {
+  overflow: hidden;
+}
+#content #about .about_text {
+  overflow: hidden;
+  width: 100%;
+
+  margin-top: 40px;
+  padding-bottom: 5%;
+}
+
+#content #about .about_text h3 {
+  font-size: 20px;
+  font-family: "HanwhaB";
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+#content #about .about_text h3 span {
+  font-size: 20px;
+  font-family: "HanwhaB";
+  color: #ec7000;
+}
+#content #about .about_text p {
+  font-size: 14px;
+  font-family: "HanwhaGothicL";
+  margin: 0 15px;
+  margin-bottom: 10px;
+}
+#content #about .about_text p span {
+  color: orange;
+}
+#content #about .about_slice {
+  width: 100%;
+  padding-bottom: 50px;
+  position: relative;
+}
+#content #about .about_slice .back {
+  background: black;
+  width: 100%;
+}
+
+#content #about .about_slice .one {
+  width: 100%;
+  height: 90%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
+
+#content #about .about_slice .two {
+  position: absolute;
+  top: 200px;
+  height: 100%;
+  z-index: 0;
+}
+#content #about .about_slice .imgbox {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#content #about .about_slice ul {
+}
+#content #about .about_slice ul li {
+}
+#content #about .about_slice div img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 18%;
+}
+#content #about .about_slice h4 {
+  font-size: 22px;
+  font-family: "HanwhaR";
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#content #about .about_slice h4 span {
+  color: #ec7000;
+  display: block;
+}
+
+#content #about .about_slice ul li p {
+  font-family: "HanwhaGothicL";
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5%;
+}
+
+/* about 버튼 */
+
+#content #about .about_slice a {
+  position: absolute;
+  top: 22%;
+}
+#content #about .about_slice a span {
+  color: #fff;
+  font-size: 40px;
+}
+
+#content #about .about_slice .left_btn {
+  left: 20px;
+}
+#content #about .about_slice .right_btn {
+  right: 10px;
+}
+
+/* New Technology */
+
+#content #nt_con {
+  width: 100%;
+  overflow: hidden;
+}
+
+#content #nt_con h3 {
+  font-size: 20px;
+  font-family: "HanwhaB";
+  margin: 40px 15px 20px;
+
+  color: #ec7000;
+}
+#content #nt_con p {
+  margin: 0 15px 20px;
+  font-size: 14px;
+  font-family: "HanwhaGothicL";
+}
+#content #nt_con div ul li {
+  overflow: hidden;
+  margin: 2%;
+}
+#content #nt_con div ul > li {
+  margin-bottom: 20px;
+}
+#content #nt_con div h4 {
+  text-align: center;
+  font-family: "HanwhaR";
+  font-size: 13px;
+  margin-top: 15px;
+}
+#content #nt_con div h4 span {
+  display: block;
+  font-family: "HanwhaGothicR";
+}
+
+#content #nt_con div ul li img {
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 94%;
+  margin: 0 3%;
+}
+#content #nt_con div ul li ul {
+  overflow: hidden;
+}
+#content #nt_con div ul li > ul li {
+  float: left;
+  overflow: hidden;
+  width: 48%;
+  margin: 0;
+}
+#content #nt_con div ul li > ul li:nth-of-type(1) {
+  margin-right: 2%;
+}
+
+/* 사업분야 */
+#content #Business .swiper-container-horizontal > .swiper-scrollbar {
+}
+#content #Business .swiper-container {
+  padding: 10px 0 20px;
+}
+#content #Business {
+  overflow: hidden;
+  background: #000;
+  padding-bottom: 50px;
+}
+#content #Business h3 {
+  font-size: 20px;
+  font-family: "HanwhaB";
+  margin: 40px 15px 20px;
+
+  color: #ec7000;
+}
+
+#content #Business p {
+  margin: 0 15px 20px;
+  font-size: 14px;
+  font-family: "HanwhaGothicL";
+  color: #fff;
+}
+
+#content #Business div h4 {
+  color: #fff;
+  font-family: "HanwhaB";
+  font-size: 15px;
+  margin: 0 10px 15px;
+}
+#content #Business div h4 span {
+  color: #ec7000;
+}
+#content #Business div .gallery-thumbs{position: relative; overflow: hidden;margin: 2%;}
+
+#content #Business div  .gallery-thumbs .visnav{}
+#content #Business .gallery-thumbs .swiper-slide {
+  background: #fff;
+  margin:0;
+  font-family: "HanwhaB";
+  font-size: 14px;
+  float: left;
+  color: #333;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 8px 5px;
+  text-align: center;
+  width: 25%;
+}
+#content #Business .gallery-thumbs .swiper-slide-thumb-active {
+  background: orange;
+  color: #fff;
+}
+/* #content #Business .gallery-thumbs .visnav div.active {
+  background: orange;
+  color: #fff;
+} */
+
+#content #Business div .gallery-top {
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+#content #Business div  .gallery-top li img {
+  width: 100%;
+  border-radius: 25px;
+}
+.swiper-container-horizontal>.swiper-scrollbar {
+  position: absolute;
+  left: 1%;
+  bottom: 3px;
+  z-index: 50;
+  height: 5px;
+  width: 98%;
+}
+
+
+
+
+
+
+#content #Youtube {
+  overflow: hidden;
+  padding-bottom: 15%;
+}
+#content #Youtube h3 {
+  font-size: 20px;
+  font-family: "HanwhaB";
+  margin: 40px 15px 20px;
+  color: #ec7000;
+}
+#content #Youtube p {
+  margin: 0 15px 20px;
+  font-size: 14px;
+  font-family: "HanwhaGothicL";
+}
+
+
+#content #Youtube .Youtube_box {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+#content #Youtube .Youtube_box iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} 
+#content #Youtube .go_youtube{overflow: hidden;}
+#content #Youtube a {
+  margin: 0 auto;
+  display: block;
+  width: 216px;
+  height: 58px;
+  text-indent: -999px;
+  overflow: hidden;
+  background: url(../images/youpage_320.png);
+  margin-top: 3%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #content #Youtube a {
+    background: url(../images/youpage_640.png);
+    background-size: 216px 58px;
+  }
+}
+
+#content #Youtube .swiper-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#content #Youtube .swiper-wrapper {
+  overflow: hidden;
+  padding-top: 2%;
+  padding-bottom: 10%;
+}
+
+#content #Youtube .swiper-slide {
+  border-radius: 25px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+#content #Youtube .swiper-scrollbar {background: #eee;bottom: 20px;    height: 8px;
+}
+

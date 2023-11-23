@@ -1,0 +1,132 @@
+.contentArea .history {
+  overflow: hidden;
+}
+.contentArea .history > p {
+  text-align: justify;
+  font-family: "HanwhaGothicL";
+  font-size: 18px;
+  margin: 0 2% 20px;
+}
+.contentArea .history > p:nth-of-type(1) {
+  text-align: center;
+  font-family: "HanwhaR";
+}
+.contentArea .history > p span {
+  color: #ec7000;
+}
+
+/* 히스토리 탭 */
+
+#content .history .gallery-thumbs {
+  position: relative;
+  overflow: hidden;
+  margin: 2%;
+  padding: 10px 0 20px;
+}
+#content .history .gallery-thumbs .swiper-wrapper {
+}
+
+#content .history .gallery-thumbs .swiper-slide {
+  background: #fff;
+  margin: 0;
+  font-family: "HanwhaGothicB";
+  font-size: 15px;
+  float: left;
+  color: #333;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 8px 5px;
+  text-align: center;
+  width: 25%;
+}
+#content .history .gallery-thumbs .swiper-slide-thumb-active {
+  background: #ec7000;
+  color: #fff;
+}
+/* #content #Business .gallery-thumbs .visnav div.active {
+  background: orange;
+  color: #fff;
+} */
+
+#content .history div .gallery-top {
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+#content .history div .gallery-top li img {
+  width: 100%;
+  border-radius: 25px;
+}
+.swiper-container-horizontal > .swiper-scrollbar {
+  position: absolute;
+  left: 1%;
+  bottom: 3px;
+  z-index: 50;
+  height: 5px;
+  width: 98%;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar .swiper-scrollbar-drag {
+  background: #ec7000;
+}
+
+#content .history .gallery-top {
+  overflow: hidden;
+  margin: 0 2% 50px;
+}
+#content .history .gallery-top .swiper-wrapper {
+}
+
+#content .history .gallery-top .swiper-wrapper .swiper-slide {
+}
+#content .history .gallery-top .swiper-wrapper .swiper-slide h4 {
+  font-family: "HanwhaB";
+  margin-top: 20px;
+  color: #ec7000;
+}
+#content .history .gallery-top .swiper-wrapper .swiper-slide h4 span {
+  color: #333;
+  margin-top: 20px;
+  display: block;
+}
+#content .history .gallery-top .swiper-wrapper .swiper-slide h4 .headbox {
+  display: block;
+  width: 130px;
+  height: 10px;
+  transform: skew(-30deg);
+  position: absolute;
+  background: #ec7000;
+  opacity: 20%;
+  top: 7px;
+  left: 10px;
+}
+#content .history .gallery-top .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  margin: 20px 0 30px;
+}
+#content .history .gallery-top .swiper-wrapper .swiper-slide ul {
+}
+#content .history .gallery-top .swiper-wrapper .swiper-slide ul li {
+  overflow: hidden;
+  margin: 5px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0 5px 10px;
+}
+#content .history .gallery-top .swiper-wrapper .swiper-slide ul li span:nth-of-type(1) {
+  overflow: hidden;
+  text-align: center;
+  font-family: "HanwhaB";
+  display: block;
+  width: 25%;
+  color: #ec7000;
+  font-size: 15px;
+  float: left;
+}
+#content .history .gallery-top .swiper-wrapper .swiper-slide ul li  span:nth-of-type(2){
+  font-family: "HanwhaGothicT";
+  float: right; display: block;
+  width: 73%;
+  margin-left: 2%;
+}
+
