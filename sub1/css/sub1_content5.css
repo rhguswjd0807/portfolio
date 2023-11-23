@@ -1,0 +1,73 @@
+.way {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-top: 200px;
+}
+.way h3 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 90px;
+}
+.way p {
+
+  overflow: hidden;
+  font-family: 'HanwhaGothicL';
+  font-size: 1.5rem;
+  line-height: 2em;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.way #map1,
+.way #map2,
+.way #map3 {
+  width: 1000px;
+  margin: 0 auto;
+  height: 500px;
+  border: 1px solid #999;
+}
+section div{overflow:hidden;}
+
+section img{
+  margin-top:40px ;
+  margin-left: 100px;
+  width: 30px;
+  height: 30px;
+   display: block;
+  float: left;}
+
+.come_menu {
+  margin-top: 100px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.come_menu ul { 
+   margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+  text-align: center;
+}
+.come_menu ul li {
+  position: relative;
+  width: 400px;
+  float: left;
+  
+}
+
+.come_menu ul li a {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+    color: #666;
+}
+.come_menu ul li:hover a {
+
+    color: #333;
+}
+
+.come_menu span {display: block; position: absolute;background:black; transition-property: width, height;transition-duration: .5s;}
+.come_menu span:nth-of-type(1){ bottom: 0; left: 0; height: 5px; width: 0;}
+.come_menu li:hover span:nth-of-type(1) {width: 400px; transition-delay: 0s; }
+

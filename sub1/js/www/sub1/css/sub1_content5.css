@@ -1,0 +1,26 @@
+.way {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.way h3 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 90px;
+}
+.way p {
+  font-family: 'HanwhaGothicL';
+  font-size: 1.4em;
+  margin-left:100px;
+  margin-top: 30px;
+}
+
+.way #map1,
+.way #map2,
+.way #map3 {
+  width: 1000px;
+  margin: 0 auto;
+  height: 500px;
+  border: 1px solid #999;
+}

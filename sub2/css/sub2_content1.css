@@ -1,0 +1,50 @@
+.tap_menu {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.tap_menu ul {
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.tap_menu ul li {
+  width: 150px;
+  float: left;
+}
+.tap_menu ul li a {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.tap_menu ul li:hover a,
+.tap_menu ul li .current {
+  background: black;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+section div {
+  padding: 0 50px;
+  position: relative;
+}
+
+section div .material-symbols-outlined {font-size: 3.5rem;
+}
+
+.ship_l {
+  font-size: 1.5rem;
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+}
+
+.ship_r {
+  font-size: 1.5rem;
+  display: block;
+  position: absolute;
+  top: 70px;
+  right: 0;
+}

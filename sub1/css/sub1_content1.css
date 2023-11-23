@@ -1,0 +1,199 @@
+/* 회사소개 본문 css */
+
+#content .about > p,
+.Vision > p {
+  font-size: 1.65em;
+  text-align: center;
+  font-family: "HanwhaGothicR";
+  line-height: 1.5em;
+  margin: 100px 0 100px;
+}
+
+#content .about {
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.about li {
+  padding: 20px;
+  overflow: hidden;
+  margin-top: 120px;
+}
+
+.about li img {
+  float: left;
+  border-radius: 35px;
+  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.4);
+}
+.about li p {
+  font-size: 1.35rem;
+  line-height: 1.5em;
+  font-family: "HanwhaGothicL";
+}
+
+.about .con1 {
+  margin-top: 50px;
+  margin-left: 75px;
+}
+.about .con1 p {
+  text-align: left;
+  overflow: hidden;
+  padding-left: 70px;
+  margin-top: 135px;
+  font-size: 1.5rem;
+  font-family: "HanwhaR";
+}
+
+.orn {
+  color: orange;
+  font-size: 2.5rem;
+}
+
+.about .con2 img {
+  float: right;
+  margin-right: 100px;
+  width: 800px;
+}
+.about .con2 p {
+  text-align: right;
+  overflow: hidden;
+  padding-right: 75px;
+  line-height: 1.65em;
+  margin-left: 200px;
+  margin-top: 5px;
+}
+
+.about .con2 p:nth-of-type(2) {
+  margin-top: 60px;
+}
+.about .con2 p:nth-of-type(3) {
+  margin-top: 60px;
+}
+
+.about .con3 {
+  margin-bottom: 130px;
+}
+
+.about .con3 img {
+  width: 800px;
+  height: 300px;
+  margin-left: 100px;
+}
+.about .con3 p {
+  overflow: hidden;
+  padding-left: 75px;
+  margin-top: 30px;
+  line-height: 1.65em;
+}
+.conbar {
+
+  height: 300px;
+  position: relative;
+}
+.conbar img{height: 300px;}
+.conbar p {
+  position: absolute;
+  color: #fff;
+  top: 100px;
+  left: 430px;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+.conbar span {
+  font-size: 2rem;
+  color: orange;
+}
+
+#content #Vision {
+  width: 2000px;
+  position: relative;
+  left: 50%;
+  /* top: 0; */
+  margin:0 auto;
+  margin-left: -1000px;
+}
+
+#content #Vision h3 span {
+  display: block;
+  margin-top: 30px;
+  font-size: 1.75rem;
+  color: #666;
+}
+#Vision p {
+  font-family: "HanwhaGothicL";
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+#content #Vision ul {
+  overflow: hidden;
+  padding: 20px;
+  margin: 100px 0 200px 320px;
+}
+#content #Vision li {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  margin-right: 60px;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s;
+}
+#content #Vision li:hover {
+  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.7);
+}
+#content #Vision li:last-child {
+  margin-right: 0;
+}
+#content #Vision li img {
+  transition: all 0.5s;
+}
+#content #Vision li:hover img {
+  transform: scale(1.1);
+  filter: grayscale(50%);
+}
+#content #Vision li dl {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1s ease;
+  overflow: hidden;
+}
+#content #Vision li dt {
+  opacity: 1;
+  color: #fff;
+  font-size: 2.2em;
+  text-align: center;
+  margin-top: 150px;
+  transition: all 0.5s;
+}
+#content #Vision li dt span {
+  display: block;
+  font-size: 0.8em;
+}
+#content #Vision li dd {
+  opacity: 0;
+  color: #fff;
+  margin: 50px 40px 0;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: center;
+  transition: all 0.5s;
+  font-family: "HanwhaGothicL";
+}
+
+#content #Vision li:hover dl {
+  background: rgba(0, 0, 0, 0.7);
+}
+#content #Vision li:hover dt {
+  margin-top: 100px;
+}
+#content #Vision li:hover dd {
+  opacity: 1;
+}
+

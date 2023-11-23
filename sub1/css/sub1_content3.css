@@ -1,0 +1,240 @@
+
+.visual span {
+  left: 43%;
+}
+#content {width: 1800px; margin: 0 auto;}
+#content .title_area::after {
+  content: "";
+  display: block;
+  width:365px;
+  height: 5px;
+  background: orange;
+  position: absolute;
+  left: 40%;
+  top: 200px;
+  margin-left: -3px;
+  margin-bottom: 0px;
+}
+.content_area {}
+.content_area img {
+  width: 1200px;
+  height: 700px;
+  margin: 150px 300px;
+
+  box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 20px 2px;
+}
+.content_area .con_menu {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.content_area .con_menu ul {
+  margin-left: 550px;
+  overflow: hidden;
+  text-align: center;
+}
+.con_menu ul li {
+  margin: 0 10px 0 30px;
+  padding: 10px 0 10px;
+  width: 300px;
+  float: left;
+}
+.con_menu ul li a {
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: 700;
+  transition: all ease-out 0.2s;
+}
+.con_menu ul li:hover a {
+  transform: scale(1.2);
+  border-radius: 10px;
+  background: #333;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+h4 {
+  margin-bottom: 30px;
+  text-align: left;
+  color: #333;
+  font-size: 2.2em;
+}
+
+h3 span {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 1.9rem;
+  color: #666;
+}
+
+#in_glb {
+  margin: 100px 300px 200px;
+}
+
+#in_glb > p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "HanwhaGothicL";
+  color: #666;
+  line-height: 1.5em;
+}
+
+#in_glb div {
+  margin-top: 100px;
+}
+#in_glb div h4 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+#in_glb div p {
+  font-size: 1.27rem;
+  font-family: "HanwhaGothicT";
+}
+
+#in_glb div .link {
+  color: #666;
+  margin-top: 10px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-family: "HanwhaGothicT";
+}
+#in_glb div .link a {
+  color: #666;
+  display: inline;
+}
+
+table {
+  width: 1200px;
+}
+
+table td,
+th {
+  font-size: 1.35em;
+  font-family: "HanwhaGothicT";
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+table th {
+  font-family: "HanwhaGothicL";
+  width: 250px;
+  font-weight: 300;
+  background: black;
+  text-align: center;
+  color: #fff;
+}
+table td {
+  line-height: 1.75em;
+  width: 500px;
+}
+table span {
+  font-family: "HanwhaGothicL";
+}
+table .orn {
+  font-family: "HanwhaGothicR";
+  color: orange;
+}
+
+#out_glb {
+    border-top: #ccc 1px solid;
+  padding: 100px 300px 200px;
+}
+
+#out_glb > p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "HanwhaGothicL";
+  color: #666;
+  line-height: 1.5em;
+}
+#in_glb > p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "HanwhaGothicL";
+  color: #666;
+  line-height: 1.5em;
+}
+
+
+#out_glb div {
+  margin-top: 100px;
+}
+#out_glb h4 {
+  width: 200px;
+  float: left;
+  font-size: 1.75em;
+  font-family: "HanwhaR";
+}
+#out_glb div .outcon {
+  width: 1000px;
+    margin: 0 auto;
+  overflow: hidden;
+
+}
+
+#out_glb div .outcon dl{padding-bottom:50px; overflow: hidden;}
+
+#out_glb div .outcon dt {
+  border-right: 1px solid #ccc;
+  height: 100px;
+  text-align: left;
+  width: 160px;
+  font-size: 1.6em;
+  float: left;
+  padding: 0 10px 0px 10px;
+
+
+}
+#out_glb div .outcon dd {
+
+  margin-bottom:20px;
+  overflow: hidden;
+    line-height: 1.3em;
+    font-size: 1.25em;
+  padding-left: 50px;
+  font-family: "HanwhaGothicT";
+}
+
+#content .content_area h3 {
+  display: block;
+  color: orange;
+  text-align: center;
+  font-size: 2.7rem;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#out_glb div .outcon .call_dd{  border-left: 0; width: 300px;}
+#out_glb div .outcon .mail_dd{ border-left: 0; width: 350px; margin: 0; padding: 0; }
+
+
+.come_menu {
+  margin-top: 100px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.come_menu ul { 
+   margin: 0 auto;
+  width: 800px;
+  overflow: hidden;
+  text-align: center;
+}
+.come_menu ul li {
+  position: relative;
+  width: 400px;
+  float: left;
+  
+}
+
+.come_menu ul li a {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+    color: #666;
+}
+.come_menu ul li:hover a {
+
+    color: #333;
+}
+
+.come_menu span {display: block; position: absolute;background:black; transition-property: width, height;transition-duration: .5s;}
+.come_menu span:nth-of-type(1){ bottom: 0; left: 0; height: 5px; width: 0;}
+.come_menu li:hover span:nth-of-type(1) {width: 400px; transition-delay: 0s; }

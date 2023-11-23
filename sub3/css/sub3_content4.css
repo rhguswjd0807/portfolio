@@ -1,0 +1,163 @@
+#content .title_area {
+  margin-bottom: 0;
+}
+
+#content .title_area p {
+  line-height: 2em;
+  font-family: "HanwhaGothicL";
+}
+.title_area p span {
+  color: orange;
+  font-size: 1.75rem;
+  font-family: "HanwhaGothicR";
+}
+
+.content_area section {
+}
+#content .content_area section .imgconbox {
+  width: 1800px;
+  margin: 0 auto;
+
+  padding-bottom: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content_area section .imgconbox img {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+  z-index: -1;
+}
+.content_area section .imgconbox h3 {
+  font-size: 3.5rem;
+  font-family: "HanwhaR";
+  position: absolute;
+  left: 820px;
+  top: 300px;
+}
+.content_area section .imgconbox p {
+  color: #fff;
+  position: absolute;
+  top: 300px;
+  font-size: 2rem;
+  font-family: "HanwhaGothicL";
+}
+.content_area section .imgconbox p:nth-of-type(1) {
+  left: 652px;
+}
+.content_area section .imgconbox p:nth-of-type(2) {
+  left: 1075px;
+}
+.content_area section .imgconbox p:nth-of-type(3) {
+  left: 815px;
+  top: 675px;
+}
+.content_area section .imgconbox p:nth-of-type(4) {
+  text-align: center;
+  font-family: "HanwhaGothicL";
+  top: 850px;
+  left: 540px;
+  color: #333;
+}
+
+.content_area section .listbox {
+  border-top: dashed 1px #ccc;
+  width: 1250px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding-top: 50px;
+}
+#content .content_area section .listbox h3 {
+  text-align: left;
+  font-size: 2rem;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 360px;
+  margin: 25px 85px 0 0px;
+  color: #333;
+}
+#content .content_area section .listbox h3 span {
+  background-color: rgba(255, 166, 0, 0.603);
+  z-index: -1;
+  position: absolute;
+  width: 330px;
+  height: 20px;
+  left: 0;
+  top: 20px;
+}
+#content .content_area section .listbox ul {
+  margin-top: 50px;
+
+  overflow: hidden;
+}
+#content .content_area section .listbox ul li {
+  background: url(../img/listback2.png) no-repeat left top;
+  font-size: 1.75rem;
+  padding: 8px 0 20px 10px;
+  font-family: "HanwhaGothicR";
+}
+
+#content .content_area section .iconbox {
+  width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#content .content_area section .iconbox .one {
+  float: left;
+  overflow: hidden;
+  width: 260px;
+  margin: 100px 110px 50px 0;
+}
+#content .content_area section .iconbox .one:nth-of-type(1) {
+  margin-left: 0;
+}
+#content .content_area section .iconbox .one:nth-of-type(4) {
+  margin-right: 0;
+}
+#content .content_area section .iconbox .one div {
+  border: 5px solid #f77321;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+#content .content_area section .iconbox .one div i {
+  font-size: 3.5rem;
+  text-align: center;
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  transition: all ease-in-out 0.5s;
+}
+/* #content .content_area section .iconbox .one div p:nth-of-type(2){
+  margin-bottom: 40px;
+} */
+#content .content_area section .iconbox .one div p {
+  font-family: "HanwhaR";
+  font-size: 2rem;
+  text-align: center;
+}
+#content .content_area section .iconbox .one:nth-of-type(2) div p {
+  padding-top: 15px;
+}
+#content .content_area section .iconbox .one ul {
+  margin-top: 40px;
+}
+#content .content_area section .iconbox .one ul li {
+  list-style: square;
+  margin: 10px 0px 10px 40px;
+  font-size: 1.35rem;
+  font-family: "HanwhaGothicL";
+}
+#content .content_area section .iconbox .one ul li span {
+  font-size: 1.2rem;
+}
+
+/* hover 처리 */
+#content .content_area section .iconbox .one:hover div i {
+  transform: rotateY(360deg);
+  color: #f77321;
+}

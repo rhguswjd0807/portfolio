@@ -1,0 +1,103 @@
+section {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 2000px;
+  margin-left: -50px;
+}
+#content .content_area h3 {color: orange;}
+section ul {
+  position: relative;
+  margin-top: 100px;
+  overflow: hidden;
+}
+section ul li {
+  overflow: hidden;
+}
+section ul li img {
+  float: right;
+  width: 450px;
+  height: 300px;
+}
+section ul li .conbox1 {
+    width: 1200px;
+  position: absolute;
+  top: 270px;
+  left: 200px;
+}
+section ul li .conbox1 h4 {
+  margin-top: 160px;
+  font-size: 2rem;
+  text-align: left;
+}
+section ul li .conbox1 p {
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: "HanwhaGothicL";
+  margin-top: 30px;
+}
+.decobox1 {
+  z-index: -1;
+  margin-top: 100px;
+  background: black;
+  width: 700px;
+  height: 500px;
+  margin-right: 200px;
+  float: right;
+}
+section ul .last{margin-bottom: 200px;}
+section ul li .conbox2 {
+    width: 1200px;
+  position: absolute;
+  top: 870px;
+  right: 200px;
+  
+  
+}
+section ul li .conbox2 img{float: left;}
+section ul li .conbox2 h4 {
+  margin-top: 160px;
+  font-size: 2rem;
+  text-align:  right;
+}
+section ul li .conbox2 p {
+  font-size: 1.5rem;
+  text-align: right;
+  font-family: "HanwhaGothicL";
+  margin-top: 30px;
+}
+.decobox2 {
+  z-index: -1;
+  margin-top: 100px;
+  background: black;
+  width: 700px;
+  height: 500px;
+  margin-left: 200px;
+  float: left;
+}
+
+section ul li .conbox3 {
+  width: 1200px;
+position: absolute;
+top: 1470px;
+left: 200px;
+}
+section ul li .conbox3 h4 {
+margin-top: 160px;
+font-size: 2rem;
+text-align: left;
+}
+section ul li .conbox3 p {
+font-size: 1.5rem;
+text-align: left;
+font-family: "HanwhaGothicL";
+margin-top: 30px;
+}
+.decobox3 {
+z-index: -1;
+margin-top: 100px;
+background: black;
+width: 700px;
+height: 500px;
+margin-right: 150px;
+float: right;
+}

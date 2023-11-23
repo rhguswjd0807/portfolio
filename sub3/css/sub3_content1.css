@@ -1,0 +1,249 @@
+.title_area p span {
+  color: orange;
+  font-size: 2rem;
+}
+
+.come_menu {
+  margin-top: 100px;
+  width: 100%;
+}
+.come_menu ul {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.come_menu ul li {
+  position: relative;
+  width: 600px;
+  float: left;
+}
+
+.come_menu ul li a {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #666;
+}
+.come_menu ul li:hover a {
+  color: #333;
+}
+
+.come_menu span {
+  display: block;
+  position: absolute;
+  background: black;
+  transition-property: width, height;
+  transition-duration: 0.5s;
+}
+.come_menu span:nth-of-type(1) {
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 0;
+}
+.come_menu li:hover span:nth-of-type(1) {
+  width: 600px;
+  transition-delay: 0s;
+}
+
+#con1 {
+  overflow: hidden;
+}
+#content .content_area section > p {
+  font-family: "HanwhaGothicL";
+  margin-top: 30px;
+  font-size: 1.3rem;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#con1 .hoverbox {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+#con1 div img {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#con1 div span {
+  position: absolute;
+  display: block;
+  color: #666;
+  transition: all ease 0.5s;
+}
+#con1 .hoverbox {
+  width: 1400px;
+}
+#con1 .hoverbox .Siheung {
+  border: 1px solid #333;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  overflow: hidden;
+  display: none;
+}
+#con1 .hoverbox .Okpo {
+  border: 1px solid #333;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 550px;
+  left: 970px;
+  overflow: hidden;
+  display: none;
+}
+#con1 .hoverbox p {
+  font-size: 1.8rem;
+  text-align: center;
+  background: black;
+  color: #fff;
+  height: 45px;
+  padding-top: 10px;
+}
+#con1 .hoverbox div img {
+  width: 350px;
+  margin: 0;
+}
+
+#con1 div .one {
+  font-size: 5em;
+  top: 280px;
+  left: 570px;
+}
+#con1 div .two {
+  font-size: 5em;
+  top: 620px;
+  left: 735px;
+}
+#con1 div .one:hover {
+  transform: scale(1.2);
+  color: black;
+}
+#con1 div .one:hover .Siheung {
+  opacity: 1;
+  border-radius: 5px;
+}
+
+#con1 div .two:hover {
+  transform: scale(1.2);
+  color: black;
+}
+
+#con1 .laboratory {
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  height: 500px;
+  float: left;
+  text-align: center;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(243, 243, 243, 1) 50%,
+    rgba(237, 237, 237, 1) 51%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  margin: 150px 50px 150px 0;
+  box-shadow: #666 2px 2px 30px 2px;
+}
+#con1 .laboratory:nth-of-type(1) {
+  margin-left: 150px;
+}
+#con1 .backorange {
+  overflow: hidden;
+  background-color: black;
+}
+#con1 div > ul {
+  width: 1600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#con1 .laboratory span {
+  font-size: 5.4rem;
+  color: #333;
+  margin-left: 157px;
+  margin-top: 50px;
+}
+
+#con1 .laboratory h4 {
+  font-size: 2rem;
+  margin-top: 175px;
+  margin-bottom: 30px;
+}
+#con1 li p{
+  font-size:1.35rem;
+  line-height: 1.5em;
+  font-family: "HanwhaGothicL";
+  padding: 10px 30px;
+}
+
+/* hover됐을떄  */
+#con1 .laboratory div {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 700px;
+  transition: all ease-in-out 1s;
+  opacity: 0;
+  background: linear-gradient(135deg, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#con1 .laboratory dl dt {
+  text-align: center;
+  font-family: "HanwhaGothicL";
+  margin-top: 50px;
+  font-family: "HanwhaR";
+  font-size: 2rem;
+  margin-top: 175px;
+  margin-bottom: 50px;
+}
+
+
+#con1 .laboratory div dt,
+#con1 .laboratory div span {
+  color: #fff;
+}
+#con1 .laboratory dd {
+  text-align: left;
+  font-size: 1.3rem;
+  font-family: "HanwhaGothicL";
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #fff;
+  padding:0 10px 0 20px;
+
+}
+
+#con1 .laboratory:hover div {
+  opacity: 1;
+  top: 0;
+
+}
+#con2 {overflow: hidden;}
+#con2 h3{ text-align: center;
+  display: block;
+  font-size: 2.7rem;
+  color: orange;
+  margin-top: 100px;
+  margin-bottom: 20px; }
+#con2 ul{overflow: hidden; width: 1200px; margin: 0 auto; border-top:1px solid #ccc;}
+#con2 div{ margin-top: 100px;}
+#con2 li{overflow: hidden; float: left; width: 320px; padding: 20px; margin-right: 60px;}
+#con2 li img{ overflow: hidden; border-radius: 50%;  margin: 50px 135px 50px 0; border: 5px solid orange; transition: all ease-in 0.2s; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);}
+#con2 li:hover img{transform: scale(1.05);}
+#con2 li:nth-of-type(3),#con2 li:nth-of-type(6),#con2 li:nth-of-type(9){margin-right: 0;}
+#con2 li dl{width: 310px;}
+#con2 li dl dt{font-weight: 700px; font-size: 1.6rem; text-align: center;  font-family:'HanwhaR';line-height: 1.5em; margin-bottom: 15px;}
+#con2 li dl dt span{font-size: 1.3rem;  font-family:'HanwhaGothicR'; display: block;}
+#con2 .smart dt{height: 64px; padding-top: 13px;}
+#con2 li dl dd {font-size: 1.4rem; font-family:'HanwhaGothicL'; text-align: center; line-height: 1.5em; margin-bottom: 50px;}

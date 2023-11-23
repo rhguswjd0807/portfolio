@@ -1,0 +1,161 @@
+.history {
+  position: relative;
+}
+#content .content_area .history {
+  margin-top: 100px;
+}
+
+.history p:nth-of-type(1) {
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: "HanwhaGothicR";
+  line-height: 1.5em;
+  margin-top: 50px;
+}
+
+.history p span {
+  color: orange;
+  font-size: 1.8rem;
+}
+
+.history p:nth-of-type(2) {
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: "HanwhaGothicR";
+  line-height: 1.5em;
+  margin: 10px 0 150px;
+}
+#content p:nth-of-type(2)::after {
+  content: "";
+  display: block;
+  width: 1400px;
+  height: 3px;
+  background: #ccc;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  margin-bottom: 0;
+}
+.history div {
+  overflow: hidden;
+  margin: 0 200px 0;
+}
+
+.history h4 {
+  font-size: 2rem;
+  color: orange;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.history h4 span {
+  display: block;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+.history img {
+  display: block;
+  width: 650px;
+  height: 350px;
+  float: left;
+}
+
+.history ul {
+  overflow: hidden;
+  border-left: 5px solid #000;
+  margin-left: 50%;
+  padding: 50px 0 100px 50px;
+}
+.history li {
+  overflow: hidden;
+  font-size: 1.45rem;
+  margin-bottom: 20px;
+}
+.history li:last-child {
+  margin-bottom: 0;
+}
+.history li span {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: orange;
+  width: 100px;
+}
+.history div .his1 {
+  padding-top: 37px;
+}
+.history div .his2 {
+  padding-top: 105px;
+}
+.history div .his3 {
+  padding-top: 155px;
+}
+.history div .his4 {
+  padding-top: 175px;
+}
+.history div .his5 {
+  padding-top: 160px;
+}
+
+.history .imgs1 {
+  float: left;
+  width: 650px;
+  margin: 45px 0 0;
+}
+.history .imgs2 {
+  float: left;
+  width: 650px;
+  margin: 75px 0 0;
+}
+.history .imgs1 img,
+.imgs2 img {
+  padding-top: 50px;
+}
+
+.history div:last-child {
+  margin-bottom: 250px;
+}
+
+.history div {
+  padding-top:300px ;
+  position: relative;
+ padding-bottom: 30px;
+}
+.material-symbols-outlined {
+ bottom: 0px;
+  left:670px;
+  font-size: 4rem;
+  position: absolute;
+  color: orange;
+}
+
+.history_menu {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.history_menu ul {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.history_menu ul li {
+  width: 20%;
+  float: left;
+}
+.history_menu ul li a {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.history_menu ul li:hover a,
+.history_menu ul li .current {
+  background: orange;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  border-left: 0;
+}

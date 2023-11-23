@@ -1,0 +1,46 @@
+
+
+.tap_menu {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.tap_menu ul {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.tap_menu ul li {
+  width: 250px;
+  float: left;
+}
+.tap_menu ul li a {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.tap_menu ul li:hover a,
+.tap_menu ul li .current {
+  background:  black;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+section ul{
+  margin: 0 50px;
+  position: relative;}
+
+.ship_l {
+  
+  display: block;
+  position: absolute;
+  top: 90px;
+  left: 0px;
+}
+
+.ship_r {
+  display: block;
+  position: absolute;
+  top: 90px;
+  right: 0;
+}
