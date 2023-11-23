@@ -1,0 +1,449 @@
+/* Reset CSS  */
+
+@font-face {
+  font-family: "Adventure";
+  src: url("../font/AnyConv.com__Adventure\ Time\ Logo.eot");
+  src: url("../font/Adventure-Time-Logo.woff") format("woff"),
+    url("../font/Adventure\ Time\ Logo.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Diphylleia";
+  src: url("../font/MiConv.com__Diphylleia-Regular.eot");
+  src: url("../font/Diphylleia-Regular.woff") format("woff"),
+    url("../font/Diphylleia-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+  -webkit-text-size-adjust: none;
+}
+html {
+  font-size: 18px;
+}
+body {
+  color: #333;
+  font-family: "Diphylleia", serif;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+img,
+video {
+  border: 0;
+  vertical-align: top;
+}
+a,
+a:link {
+  color: #333;
+  text-decoration: none;
+}
+a:visited {
+  color: #333;
+}
+a:hover,
+a:active {
+  color: #333;
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+label {
+  cursor: pointer;
+}
+.blind,
+legend,
+hr,
+caption {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: -1000em;
+}
+i,
+em,
+address {
+  font-style: normal;
+  font-weight: normal;
+}
+p,
+li,
+dd {
+  line-height: 1.5em;
+}
+.hidden,
+#skipNav {
+  display: block;
+  position: absolute;
+  left: -1000%;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* 헤더 공통 영역 */
+#wrap {
+  width: 100%;
+  overflow: hidden;
+}
+#headerArea {
+  position: fixed;
+  z-index: 30;
+  height: 130px;
+  /* background: rgba(0, 0, 0, 0.8); */
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#headerArea .headerInner {
+  width: 95%;
+  margin: 0 3% 0 2%;
+  overflow: hidden;
+}
+#headerArea h1 {
+  float: left;
+  margin-top: 15px;
+}
+
+#headerArea .headerInner .logo a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  text-indent: -999px;
+  overflow: hidden;
+  background: url(../images/logo.png);
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #headerArea .header_top .logo a {
+    background: url(../images/headlogo_640.png);
+    background-size: 110px 37px;
+  }
+}
+#headerArea #gnb {
+  float: right;
+  margin-top: 25px;
+}
+#headerArea #gnb ul {
+  margin-top: 30px;
+}
+#headerArea #gnb ul li {
+  float: left;
+  margin-right: 25px;
+}
+#headerArea #gnb ul li a {
+  color: #152443;
+  text-decoration: none;
+  font-family: "Adventure";
+  font-size: 40px;
+  font-weight: 400;
+  -webkit-text-stroke: 0.5px white;
+  transition: all ease 0.3s;
+}
+#headerArea #gnb ul li:hover a {
+  color: #ffd600;
+}
+
+/* 네비 */
+#headerArea .menu_ham {
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  right: 20px;
+  z-index: 50;
+  display: none;
+}
+#headerArea .menu_ham span {
+  width: 20px;
+  height: 4px;
+  background: #fff;
+  position: relative;
+  text-indent: -9999px;
+  display: block;
+  margin: 26px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+#headerArea .menu_ham span::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: -7px;
+  left: 0;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+#headerArea .menu_ham span::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+#headerArea.down .menu_ham span {
+  background: #fff;
+}
+#headerArea.down .menu_ham span::before {
+  content: "";
+  background: #fff;
+}
+#headerArea.down .menu_ham span::after {
+  content: "";
+  background: #fff;
+}
+
+/* 메뉴가 열렸을때 */
+#headerArea.mn_open .menu_ham span,
+#headerArea.mn_open .menu_ham span::before,
+#headerArea.mn_open .menu_ham span::after {
+  background: #fff;
+}
+#headerArea.mn_open .menu_ham span {
+  background: rgba(0, 0, 0, 0);
+}
+#headerArea.mn_open .menu_ham span::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+#headerArea.mn_open .menu_ham span::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+/* 비주얼 공통 */
+.videoBox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+#videoBG {
+  position: fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+  left: 50%;
+  top: 50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+  width: auto;
+  min-width: 100%; /*동영상 너비를 꽉차게*/
+  height: auto;
+  min-height: 100%; /*동영상 높이를 꽉차게*/
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -100; /*다른요소보다 아래에 위치*/
+}
+
+#imgBG {
+  position: fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+  left: 50%;
+  top: 50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+  width: auto;
+  min-width: 100%; /*동영상 너비를 꽉차게*/
+  height: auto;
+  min-height: 100%; /*동영상 높이를 꽉차게*/
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -100;
+}
+
+.down {
+  display: block;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -90px;
+  bottom: 15%;
+  animation: ani 1s infinite alternate;
+}
+@keyframes ani {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    color: #152443;
+  }
+  100% {
+    transform: scale(1.2);
+    color: darkblue;
+  }
+}
+.down div {
+  position: relative;
+}
+.down div img {
+  display: block;
+  opacity: 1;
+  /* margin: 0 57px; */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -35px;
+}
+.down div p {
+  padding-top: 80px;
+  font-family: "Adventure";
+  opacity: 1;
+  text-align: center;
+  font-size: 25px;
+  -webkit-text-stroke: 1px white;
+}
+
+/* 푸터 공통 영역 */
+#footerArea {
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  padding: 30px 0;
+  background: #00092a;
+  border-top: 1px solid #fff;
+}
+#footerArea .topMove {
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  margin-left: -67px;
+}
+#footerArea .footerInner {
+  overflow: hidden;
+}
+#footerArea .footerInner .logo a {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -100px;
+  display: block;
+  width: 200px;
+  height: 100px;
+  text-indent: -999px;
+  overflow: hidden;
+  background: url(../images/logo.png);
+  color: #fff;
+  text-decoration: none;
+}
+#footerArea .footerInner p {
+  color: #fff;
+  margin-top: 200px;
+  font-size: 1.5rem;
+}
+/* 일반 pc */
+@media screen and (max-width: 1280px) {
+  #headerArea #gnb ul li a {
+    font-size: 35px;
+  }
+}
+
+/* 테블릿 */
+@media screen and (max-width: 1024px) {
+  #headerArea {
+    height: 100px;
+  }
+  #headerArea #gnb{    margin-top: 10px;}
+  #headerArea #gnb ul li a {
+    font-size: 24px;
+  }
+  #headerArea #gnb ul li {
+    margin-right: 15px;
+  }
+  #headerArea .headerInner .logo a {
+    width: 150px;
+    height: 82px;
+    background: url(../images/logosmall.png);
+  }
+
+  #footerArea .footerInner .logo a {
+    width: 150px;
+    height: 82px;
+    background: url(../images/logosmall.png);
+    margin-left: -77.5px;
+
+  }
+  .down {
+    bottom: 5%;
+    margin-left: -75px;
+  }
+  .down div {
+    width: 150px;
+  }
+  .down div p {
+    font-size: 18px;
+  }
+  .down div img {
+    width: 40%;
+    margin-left: -30px;
+  }
+  #footerArea .footerInner p {font-size: 1rem;    margin-top: 170px;}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width: 768px) {
+  #headerArea .menu_ham {
+    display: block;
+  }
+  header .mainMenu {
+    width: 100%;
+    background: #000;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    box-sizing: border-box;
+  } /* 포지션 앱솔루트나 픽스 쓸 때 width auto가 안먹을 수 있음. 그때는 width 100% 사용 */
+  #headerArea #gnb {
+    margin-top: 0;
+  }
+  #headerArea #gnb ul li {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+  #headerArea #gnb ul li a {
+    display: block;
+    padding: 20px 0;
+    color: #6b120c;
+    font-size: 35px;
+  }
+
+}
+
+/* 모바일 */
+@media screen and (max-width: 640px) {
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width: 480px) {
+  #wrap {
+    min-width: 320px;
+  }
+}

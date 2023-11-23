@@ -1,0 +1,139 @@
+#content {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+#content h2 {
+  position: absolute;
+  top: -490px;
+  font-family: "Adventure";
+  -webkit-text-stroke: 2px white;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5em;
+  color: #ffd600;
+  font-weight: 300;
+}
+
+section {
+  background: rgba(0, 0, 0, 0.75);
+  margin: 0 5%;
+}
+#content .con1 {
+  width: 60%;
+  padding: 0px 15%;
+}
+#content h3 {
+  color: #ffd600;
+  font-size: 45px;
+  padding: 50px 0 20px;
+  -webkit-text-stroke: 1px white;
+  font-family: "Adventure";
+  text-align: center;
+}
+.con1 p {
+  text-align: center;
+  color: #fff;
+}
+
+.con1 a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 5% 10% 0;
+  border: #ffd600 2px solid;
+  border-radius: 10px;
+}
+.con1 a img {
+  display: block;
+  width: 100%;
+}
+.con1 a i {
+  position: absolute;
+  color: red;
+  top: 39%;
+  left: 42%;
+  font-size: 5rem;
+}
+
+.con1 a:hover img {transform: scaleX();}
+
+
+
+.con2 {
+  padding: 20px 0;
+  overflow: hidden;
+}
+.con2 > div {
+  width: 90%;
+  overflow: hidden;
+}
+.con2 div a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border: #ffd600 2px solid;
+  border-radius: 10px;
+  width: 45%;
+  box-sizing: border-box;
+  margin: 0 2.5%;
+}
+.con2 div a i {
+  position: absolute;
+  color: red;
+  top: 39%;
+  left: 42%;
+  font-size: 5rem;
+}
+.con2 div img {
+  width: 100%;
+}
+.con2 div dl {
+  padding: 0 2.5%;
+  color: #fff;
+}
+.con2 div dl span {
+  font-family: "Diphylleia";
+  font-size: 1.5rem;
+}
+.con2 div dt {
+  margin: 0px 0 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: #ffd600; font-weight: 700;
+  border-bottom: 1px dashed #fff;
+}
+.con2 div dl dd {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+}
+
+.con2 dd,
+.con2 dt {
+  color: #fff;
+}
+.con2 .conright {
+  margin: 5%;
+}
+.con2 .conright a {
+  float: left;
+}
+.con2 .conright dl {
+  overflow: hidden;
+  width: 45%;
+}
+
+.con2 .conleft {
+  margin: 5%;
+}
+.con2 .conleft a {
+}
+.con2 .conleft dl {
+  float: left;
+  overflow: hidden;
+  width: 45%;
+  margin: 0 2.5%;
+}
+
+

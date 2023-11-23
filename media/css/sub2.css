@@ -1,0 +1,590 @@
+/* 와이드 pc  */
+#content {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+#content h2 {
+  position: absolute;
+  top: -490px;
+  font-family: "Adventure";
+  -webkit-text-stroke: 2px white;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5em;
+  color: #ffd600;
+  font-weight: 300;
+}
+#content h3 {
+  width: 100%;
+  background-color: #152443;
+  color: #ffd600;
+  font-size: 45px;
+  padding: 20px 30px;
+  -webkit-text-stroke: 1px white;
+  font-family: "Adventure";
+}
+
+#content .main > div {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 핀  */
+
+#content .main .maincon1 > img {
+  display: block;
+  width: 100%;
+}
+
+#content .main .maincon1 h4 {
+  position: absolute;
+  font-size: 80px;
+  font-family: "Adventure";
+  color: #fff;
+  -webkit-text-stroke: 1px #10f1ff;
+  text-align: center;
+  top: 40%;
+  left: 25%;
+}
+#content .main .maincon1 .context {
+  position: absolute;
+  transform: skew(-25deg);
+  top: 0;
+  right: -71%;
+  width: 100%;
+  background: #10f1ff;
+  transition: all ease 0.5s;
+  box-shadow: #10f1ff -70px 0px 60px 60px;
+}
+
+#content .main .maincon1 .context dl {
+  text-align: center;
+  margin-top: 3%;
+  margin-right: 5%;
+  overflow: hidden;
+  transform: skew(25deg);
+}
+#content .main .maincon1 .context dl dt {
+  font-family: "Adventure";
+  color: #10f1ff;
+  -webkit-text-stroke: 1px #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#content .main .maincon1 .context dl dd {
+  font-size: 28px;
+}
+#content .main .maincon1 .context dl dd:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+#content .main .maincon1 .context img {
+  display: block;
+  float: left;
+  margin: 0 5%;
+  width: 20%;
+  transform: skew(25deg);
+}
+#content .main .maincon1:hover .context {
+  right: 0;
+}
+
+/* 제이크 */
+
+#content .main .maincon2 > img {
+  display: block;
+  width: 100%;
+}
+
+#content .main .maincon2 h4 {
+  position: absolute;
+  font-size: 80px;
+  font-family: "Adventure";
+  color: #fff;
+  -webkit-text-stroke: 1px #ffd600;
+  text-align: center;
+  top: 40%;
+  right: 25%;
+}
+#content .main .maincon2 .context {
+  position: absolute;
+  transform: skew(25deg);
+  top: 0;
+  left: -71%;
+  width: 100%;
+  background: #ffd600;
+  transition: all ease 0.5s;
+  box-shadow: #ffd600 70px 0px 60px 60px;
+}
+
+#content .main .maincon2 .context dl {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 5%;
+  overflow: hidden;
+  transform: skew(-25deg);
+}
+#content .main .maincon2 .context dl dt {
+  font-family: "Adventure";
+  color: #ffd600;
+  -webkit-text-stroke: 1px #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#content .main .maincon2 .context dl dd {
+  font-size: 28px;
+}
+#content .main .maincon2 .context dl dd:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+#content .main .maincon2 .context img {
+  display: block;
+  float: right;
+  margin: 0 5%;
+  width: 20%;
+  transform: skew(-25deg);
+}
+#content .main .maincon2:hover .context {
+  left: 0;
+}
+
+/* sub 서브 콘텐츠 */
+.sub {
+  overflow: hidden;
+}
+.sub > div {
+  width: 100%;
+}
+.sub div ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-rows: 150px; */
+  grid-gap: 0px;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+}
+.sub div ul li {
+  position: relative;
+  transition: all ease 0.5s;
+}
+.sub div ul li:hover div {
+  top: 0;
+  left: 0;
+}
+
+.sub div ul li img {
+  object-fit: cover;
+  width: 50%;
+  margin: 5% 25% 2%;
+}
+.sub div ul li h4 {
+  font-size: 40px;
+  font-family: "Adventure";
+  -webkit-text-stroke: 1px white;
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.sub div ul li div p span {
+  display: block;
+  margin: 10% 0;
+}
+.sub div ul li div p {
+  color: #fff;
+  padding: 10% 10% 40%;
+  text-align: center;
+  font-size: 22px;
+  line-height: 2rem;
+}
+
+.sub div ul .sub1 {
+  grid-area: a;
+  background: url(../images/sub2/con2_1small.png) no-repeat center;
+  background-size: cover;
+  color: #e72cf8;
+  position: relative;
+}
+.sub div ul .sub1 h4 {
+  color: #e72cf8;
+}
+
+.sub div ul .sub2 {
+  grid-area: b;
+  background: url(../images/sub2/con2_2small.png) no-repeat center;
+  background-size: cover;
+}
+.sub div ul .sub2 h4 {
+  color: #0301e5;
+}
+.sub div ul .sub3 {
+  grid-area: c;
+  background: url(../images/sub2/con2_3small.png) no-repeat center;
+  background-size: cover;
+}
+.sub div ul .sub3 h4 {
+  color: #000;
+}
+.sub div ul .sub4 {
+  grid-area: d;
+  background: url(../images/sub2/con2_4small.png) no-repeat center;
+  background-size: cover;
+}
+.sub div ul .sub4 h4 {
+  color: #e9eca2;
+}
+.sub div ul .sub5 {
+  grid-area: e;
+  background: url(../images/sub2/con2_5small.png) no-repeat center;
+  background-size: cover;
+}
+.sub div ul .sub5 h4 {
+  color: #d687ff;
+}
+.sub div ul .sub6 {
+  grid-area: f;
+  background: url(../images/sub2/con2_6small.png) no-repeat center;
+  background-size: cover;
+}
+.sub div ul .sub6 h4 {
+  color: #4baf9d;
+}
+.sub div ul li div {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all ease-in 0.5s;
+}
+
+.other {
+  width: 100%;
+  background: #152443;
+}
+.other ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-auto-rows: 150px; */
+  grid-gap: 0px;
+  grid-template-areas: "a b c d e ";
+  padding: 5% 10% 10%;
+}
+.other ul li img {
+  width: 100%;
+}
+.other ul .other1 {
+  grid-area: a;
+}
+.other ul .other2 {
+  grid-area: b;
+}
+.other ul .other3 {
+  grid-area: c;
+}
+.other ul .other4 {
+  grid-area: d;
+}
+.other ul .other5 {
+  grid-area: e;
+}
+/* 일반 pc */
+@media screen and (max-width: 1280px) {
+  #content h2 {
+    top: -490px;
+  }
+  #content h3 {
+    font-size: 35px;
+    padding: 15px 30px;
+  }
+  #content .main .maincon1 h4 {
+    font-size: 60px;
+    left: 22%;
+  }
+  #content .main .maincon1 .context dl dt {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  #content .main .maincon1 .context dl dd:nth-of-type(1) {
+    margin-bottom: 5px;
+  }
+  #content .main .maincon1 .context dl dd {
+    font-size: 20px;
+  }
+
+  #content .main .maincon2 h4 {
+    font-size: 60px;
+    right: 22%;
+  }
+  #content .main .maincon2 .context dl dt {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  #content .main .maincon2 .context dl dd:nth-of-type(1) {
+    margin-bottom: 5px;
+  }
+  #content .main .maincon2 .context dl dd {
+    font-size: 20px;
+  }
+  .sub div ul li div p {
+    padding: 10% 10% 40%;
+    font-size: 20px;
+    line-height: 1.75rem;
+  }
+  .sub div ul li div p span {
+    margin: 5% 0;
+  }
+}
+
+/* 테블릿 */
+@media screen and (max-width: 1024px) {
+  #content h2 {
+    font-size: 50px;
+  }
+  #content h3 {
+    padding: 10px 15px;
+  }
+  #content .main .maincon1 h4 {
+    font-size: 45px;
+    left: 20%;
+    top: 38%;
+    -webkit-text-stroke: 0.5px #10f1ff;
+  }
+  #content .main .maincon1 .context {
+    right: -80%;
+  }
+  #content .main .maincon1 .context img {
+    margin: 0 1% 0 0;
+  }
+  #content .main .maincon1 .context dl {
+    margin-top: 2%;
+    margin-right: 5%;
+  }
+  #content .main .maincon1 .context dl dt {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  #content .main .maincon1 .context dl dd {
+    font-size: 18px;
+  }
+
+  #content .main .maincon2 h4 {
+    font-size: 45px;
+
+    top: 38%;
+  }
+  #content .main .maincon2 .context {
+    left: -80%;
+  }
+  #content .main .maincon2 .context img {
+    margin: 0 0 0 1%;
+  }
+  #content .main .maincon2 .context dl {
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  #content .main .maincon2 .context dl dt {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  #content .main .maincon2 .context dl dd {
+    font-size: 18px;
+  }
+
+  .sub div ul li h4 {
+    font-size: 30px;
+  }
+  .sub div ul li div p span {
+    display: none;
+  }
+  .sub div ul li div p {
+    font-size: 18px;
+    padding: 10% 5% 40%;
+  }
+}
+/* 소형 테블릿 */
+@media screen and (max-width: 768px) {
+  #content h2 {
+    top: -490px;
+  }
+  #content .main div .context dl dd span {
+    display: none;
+  }
+  .sub div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-auto-rows: 150px; */
+    grid-gap: 0px;
+    grid-template-areas:
+      "a b "
+      "c d "
+      "e f";
+  }
+  #content .main .maincon1 > img {
+    display: none;
+  }
+  #content .main .maincon1 h4 {
+    font-size: 40px;
+    left: 65%;
+    top: 4%;
+    -webkit-text-stroke: 0.5px #fff;
+    color: #10f1ff;
+  }
+
+  #content .main .maincon1 .context {
+    position: unset;
+    transform: skew(0deg);
+    overflow: hidden;
+    background: url(../images/sub2/finnback_small.png) no-repeat;
+    background-size: cover;
+  }
+  #content .main .maincon1 .context h4 {
+    display: none;
+  }
+  #content .main .maincon1 .context img {
+    width: 40%;
+    transform: skew(0deg);
+  }
+  #content .main .maincon1 .context dl {
+    transform: skew(0deg);
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  #content .main .maincon1 .context dl dt {
+    font-size: 40px;
+  }
+  #content .main .maincon1 .context dl dd {
+    color: #fff;
+    font-size: 20px;
+  }
+  #content .main .maincon1 .context dl dd:nth-of-type(1) {
+    margin-top: 30px;
+  }
+  #content .main .maincon2 > img {
+    display: none;
+  }
+  #content .main .maincon2 h4 {
+    font-size: 40px;
+    left: 65%;
+    top: 4%;
+    -webkit-text-stroke: 0.5px #fff;
+    color: #10f1ff;
+  }
+
+  #content .main .maincon2 .context {
+    position: unset;
+    transform: skew(0deg);
+    overflow: hidden;
+    background: url(../images/sub2/jakeback_small.png) no-repeat;
+    background-size: cover;
+  }
+  #content .main .maincon2 .context h4 {
+    display: none;
+  }
+  #content .main .maincon2 .context img {
+    width: 40%;
+    transform: skew(0deg);
+  }
+  #content .main .maincon2 .context dl {
+    transform: skew(0deg);
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  #content .main .maincon2 .context dl dt {
+    font-size: 40px;
+  }
+  #content .main .maincon2 .context dl dd {
+    color: #fff;
+    font-size: 20px;
+  }
+  #content .main .maincon2 .context dl dd:nth-of-type(1) {
+    margin-top: 30px;
+  }
+  .sub div ul li h4 {
+    margin-bottom: 5%;
+  }
+  .sub div ul li div {
+    position: unset;
+    background: rgba(0, 0, 0, 0);
+  }
+  .sub div ul li div p {
+    padding: 0% 5% 4%;
+  }
+  .sub div ul .sub1 {
+    background: url(../images/sub2/con2_1small2.png);
+  }
+  .sub div ul .sub2 {
+    background: url(../images/sub2/con2_2small2.png);
+  }
+  .sub div ul .sub3 {
+    background: url(../images/sub2/con2_3small2.png);
+  }
+  .sub div ul .sub4 {
+    background: url(../images/sub2/con2_4small2.png);
+  }
+  .sub div ul .sub5 {
+    background: url(../images/sub2/con2_5small2.png);
+  }
+  .sub div ul .sub6 {
+    background: url(../images/sub2/con2_6small2.png);
+  }
+
+  .sub div ul .sub5 img,
+  .sub div ul .sub6 img {
+    margin-bottom: -15%;
+  }
+}
+
+/* 모바일 */
+@media screen and (max-width: 640px) {
+  #content h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+  #content .main .maincon1 .context img {
+    width: 60%;
+    margin: 0px 20%;
+    float: unset;
+  }
+  #content .main .maincon1 .context dl {
+    margin: 0 10px 30px;
+  }
+  #content .main .maincon1 .context dl dd {
+    font-size: 18px;
+  }
+
+  #content .main .maincon2 .context img {
+    width: 60%;
+    margin: 0px 20%;
+    float: unset;
+  }
+  #content .main .maincon2 .context dl {
+    margin: 0 10px 30px;
+  }
+  #content .main .maincon2 .context dl dd {
+    font-size: 18px;
+  }
+  .sub div ul {
+    display: block;
+   
+}
+.sub div ul li {width: 100%;}
+.other ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-rows: 150px; */
+  grid-gap: 0px;
+  grid-template-areas:
+      "a b"
+      "c d";
+  padding: 5% 10% 10%;
+}.other ul .other5 {
+  display: none;
+}
+
+
+
+}
