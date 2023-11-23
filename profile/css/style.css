@@ -46,14 +46,16 @@ h1 {
 }
 .info li {
   float: left;
-  padding: 10px 30px;
   background: #fff;
   font-family: "Abril Fatface";
   margin-right: 10px;
+  overflow: hidden;
 }
 .info li a {
+  display: block;
   color: black;
   font-size: 1.35rem;
+  padding: 5px 20px;
 }
 
 .info li:hover {
