@@ -1,0 +1,318 @@
+.me {
+  width: 60%;
+  margin: 0 20%;
+}
+.me img {
+  width: 100%;
+  border-radius: 41% 59% 59% 41% / 39% 60% 40% 61%;
+}
+h1 {
+  font-style: italic;
+  color: #ccc;
+}
+
+.info {
+  width: 90%;
+  margin: 30px 0 20px 10%;
+  text-align: left;
+}
+
+.info h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+.info {
+  color: #fff;
+}
+.info dl {
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+}
+.info dl dt {
+  font-family: "Abril Fatface";
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+.info dl dd {
+  font-size: 1.5rem;
+}
+.info ul {
+  overflow: hidden;
+  padding: 25px 0 0;
+}
+.info li {
+  float: left;
+  padding: 10px 30px;
+  background: #fff;
+  font-family: "Abril Fatface";
+  margin-right: 10px;
+}
+.info li a {
+  color: black;
+  font-size: 1.35rem;
+}
+
+.info li:hover {
+  background: #ccc;
+}
+
+#left2 h1 {
+  margin-bottom: 50px;
+}
+.pc_imgbox {
+  width: 60%;
+  float: left;
+  margin: 0 20% 90px;
+  position: relative;
+}
+.pc_imgbox .conimg {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.pc_imgbox .gif {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  width: 96%;
+}
+
+.ms-right h1 {
+  margin: 0 10% 30px 0;
+  color: #000;
+  font-size: 3rem;
+  text-align: left;
+  font-style: normal;
+}
+.ms-right h1 span {
+  font-family: "Gothic A1";
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.ms-right h2 {
+  color: orange;
+  font-size: 1.5rem;
+  margin-top: 7px;
+  font-family: "Gothic A1";
+  font-weight: 600;
+  float: left;
+}
+
+.pc_text {
+  width: 100%;
+  /* background: url(../hanwha.png) no-repeat right top; */
+  text-align: left;
+  font-family: "Gothic A1";
+  position: relative;
+}
+.pc_text p {
+  margin: 30px 20% 0px 0;
+  font-size: 1.25rem;
+  line-height: 1.5em;
+  color: #222;
+}
+.pc_text a {
+  position: relative;
+  display: block;
+  width: 200px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 1.43rem;
+  box-sizing: border-box;
+  color: black;
+  background: #ccc;
+  margin: -15px 0 1px 220px;
+}
+.pc_text a span {
+  float: right;
+  margin-top: -3px;
+}
+.pc_text a:hover {
+  color: #fff;
+  background: black;
+}
+
+.pc_text dl {
+  margin: 20px 0;
+  font-size: 1rem;
+  overflow: hidden;
+  width: 60%;
+}
+.pc_text dl dt {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.pc_text dl dd {
+}
+.pc_text dl .color {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  float: left;
+  margin: 10px;
+  border-radius: 50%;
+}
+.pc_text dl .color:nth-of-type(1) {
+  margin-left: 0;
+  background: #000;
+}
+.pc_text dl .color:nth-of-type(2) {
+  background: #fc8c28;
+}
+.pc_text dl .color:nth-of-type(3) {
+  background: #ccc;
+}
+.pc_text dl .color:nth-of-type(4) {
+  background: #fff;
+}
+.pc_text dl:nth-of-type(2) {
+  float: none;
+}
+.mobile_imgbox {
+  width: 20%;
+  float: left;
+  margin: 20px 40% 90px;
+  position: relative;
+}
+.mobile_imgbox .conimg {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.mobile_imgbox .gif {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  width: 96%;
+}
+.pc_text .QR {
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+  width: 20%;
+}
+
+
+.ms-tableCell {
+  padding-right: 80px;
+}
+
+#right4 h1 {
+  color: #ffd600;
+}
+#right4 h2 {
+  color: #ccc;
+}
+
+#right4 .R_text {
+  text-align: left;
+}
+.R_text {position: relative;}
+.R_text p {
+  margin: 30px 20% 0px 0;
+  font-size: 1.25rem;
+  line-height: 1.5em;
+  color: #ffd600;
+}
+.R_text a {
+  position: relative;
+  display: block;
+  width: 200px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 1.43rem;
+  box-sizing: border-box;
+  color: #fff;
+  background: black;
+  margin: -15px 0 1px 220px;
+}
+.R_text a span {
+  float: right;
+  margin-top: -3px;
+}
+.R_text a:hover {
+  color: #000;
+  background: #ffd600;
+}
+.R_text dl {
+  margin: 20px 0;
+  font-size: 1rem;
+  overflow: hidden;
+  width: 60%;
+}
+.R_text dl dt {
+  font-size: 20px;
+  color: #ffd600;
+}
+.R_text dl dd {
+  color: #ccc;
+}
+.R_text dl .color {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 10px;
+  border-radius: 50%;
+  border: 0.5px solid #fff;
+}
+.R_text dl .color:nth-of-type(1) {
+  margin-left: 0;
+  background: #152443;
+}
+.R_text dl .color:nth-of-type(2) {
+  background: #ffd600;
+}
+
+.R_text dl:nth-of-type(2) {
+  float: none;
+}
+.R_text .QR {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  width: 20%;}
+.R_imgbox {
+  width: 60%;
+  position: relative;
+  margin: 40px 10% 90px 5%;
+}
+.R_imgbox img {
+  display: block;
+}
+.R_imgbox .R_pc {
+  width: 80%;
+  position: relative;
+  z-index: 1;
+  padding-left: 50%;
+}
+.R_imgbox .R_gif {
+  width: 78%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 2% 0 1% 51%;
+}
+.R_imgbox .R_ipad {
+  position: absolute;
+  width: 30%;
+  top: 110px;
+  left: 160px;
+  z-index: 2;
+}
+.R_imgbox .R_mobile {
+  position: absolute;
+  width: 15%;
+  z-index: 3;
+  top: 170px;
+  left: 100px;
+}
+

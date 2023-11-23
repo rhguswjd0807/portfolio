@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>고현정</title>
+
+    <link rel="stylesheet" href="./css/jquery.multiscroll.css" />
+    <link rel="stylesheet" href="examples.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      @keyframes bounceAnimation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  25% {
+      transform: translateY(-10px);
+  }
+  50% {
+      transform: translateY(10px);
+  }
+  75% {
+      transform: translateY(-10px);
+  }
+}
+
+#left2 h1, #left3 h1, #left4 h1 {
+  animation: bounceAnimation 3s ease infinite;
+}
+    </style>
+  </head>
+  <body>
+    <div class="menu_con">
+      <ul id="menu">
+        <li data-menuanchor="first"><a href="#first">profile</a></li>
+        <li data-menuanchor="second"><a href="#second">pc</a></li>
+        <li data-menuanchor="third"><a href="#third">mobile</a></li>
+        <li data-menuanchor="fourth"><a href="#fourth">Responsive</a></li>
+        <!-- <li data-menuanchor="fifth"><a href="#fifth">Third section</a></li> -->
+      </ul>
+    </div>
+
+    <div id="myContainer">
+      <div class="ms-left">
+        <div class="ms-section active" id="left1">
+          <h1>profile</h1>
+          <div class="info">
+            <h2 class="type">HYUN &nbsp; JUNG &nbsp; KO</h2>
+            <dl>
+              <dt>info</dt>
+              <dd>고현정 &nbsp; / &nbsp; 2001.08.07</dd>
+            </dl>
+            <dl>
+              <dt>contact</dt>
+              <dd>010.8060.5586 &nbsp; / &nbsp; rrhguswjd0807@gmail.com</dd>
+            </dl>
+            <dl>
+              <dt>skill</dt>
+              <dd>
+                HTML5, CSS3, JavaScript, jQuery, Photoshop, illustrator, Figma,
+                ppt, Github
+              </dd>
+            </dl>
+            <ul>
+              <li>
+                <a
+                  href="https://rhguswjd0807.cafe24.com/resume"
+                  target="_blank"
+                  title="온라인 이력서 새창에 열림"
+                  >ONLINE RESUME</a
+                >
+              </li>
+              <li><a href="">STORY BOARD</a></li>
+              <li><a href="https://github.com/rhguswjd0807/portfolio.git"
+                target="_blank"
+                title="고현정 깃허브 새창에 열림">GITHUB</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ms-section" id="left2">
+          <h1>pc</h1>
+          <div class="pc_imgbox">
+            <img class="conimg" src="./images/pc.png" alt="" />
+            <img class="gif" src="./images/pc.gif" alt="" />
+          </div>
+        </div>
+
+        <div class="ms-section" id="left3">
+          <h1>mobile</h1>
+          <div class="mobile_imgbox">
+            <img class="conimg" src="./images/mobile.png" alt="" />
+            <img class="gif" src="./images/mobile.gif" alt="" />
+          </div>
+        </div>
+        <div class="ms-section" id="left4">
+          <h1>Responsive</h1>
+          <div class="R_imgbox">
+            <img class="R_pc" src="./images/pc.png" alt="" />
+            <img class="R_gif" src="./images/R.gif" alt="" />
+            <img class="R_ipad" src="./images/ipad_R.png" alt="" />
+            <img class="R_mobile" src="./images/mobile_R.png" alt="" />
+          </div>
+        </div>
+        <!-- <div class="ms-section" id="left5">
+			<h1>Left 5</h1>
+		</div> -->
+      </div>
+
+      <div class="ms-right">
+        <div class="ms-section active" id="right1">
+          <div class="me">
+            <img src="./images/porfileme.jpg" alt="" />
+          </div>
+        </div>
+        <div class="ms-section" id="right2">
+          <h1>Hanwha Ocean <span>기업형</span></h1>
+          <div class="pc_text">
+            <h2>한화오션</h2>
+            <a href="http://rhguswjd0807.cafe24.com/"
+               target="_blank"
+               title="pc웹 새창에 열림"
+              >VISIT SITE<span class="material-symbols-outlined">
+                arrow_forward
+              </span>
+              </a>
+            <p>
+              웹 접근성과 웹 표준을 준수한 사이트로 기존 사이트를 새롭게 제작
+              Javascript 라이브러리, 플러그인, Ajax 다양한 기법으로 제작 최신
+              트렌드에 맞는 UI디자인으로 제작
+            </p>
+            <dl>
+              <dt>color</dt>
+              <dd class="color"></dd>
+              <dd class="color"></dd>
+              <dd class="color"></dd>
+              <dd class="color"></dd>
+            </dl>
+            <dl>
+              <dt>제작인원</dt>
+              <dd>1인(기여도 100%)</dd>
+            </dl>
+            <dl>
+              <dt>font</dt>
+              <dd>Hanwha, HanwhaGodic</dd>
+            </dl>
+
+            <dl>
+              <dt>제작기간</dt>
+              <dd>(약 1개월)</dd>
+            </dl>
+            <dl>
+              <dt>제작스킬</dt>
+              <dd>
+                HTML5, CSS3, JavaScript, jQuery, AJAX, 그누보드(게시판), Adobe
+                Photoshop, illustrator, W3C 웹표준 통합 마크업 검사(html/css),
+                웹접근성검사(K-WAH), 크로스브라우징 완료
+              </dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="ms-section" id="right3">
+          <h1>Hanwha Ocean <span>모바일</span></h1>
+          <div class="pc_text">
+            <h2>한화오션</h2>
+            <a
+              href="https://rhguswjd0807.cafe24.com/mobile"
+              target="_blank"
+              title="모바일웹 새창에 열림"
+              >VISIT SITE<span class="material-symbols-outlined">
+                arrow_forward
+              </span></a
+            >
+            <p>
+              PC용으로 구현된 기업형 한와오션 웹사이트를 다양한 모바일 기기에
+              적합한 UI를 적용하여 새롭게 구현한 모바일용 웹입니다. 마우스가
+              아닌 사용자의 터치 이벤트를 중점적으로 제작하였습니다.
+            </p>
+            <dl>
+              <dt>color</dt>
+              <dd class="color"></dd>
+              <dd class="color"></dd>
+              <dd class="color"></dd>
+              <dd class="color"></dd>
+            </dl>
+            <dl>
+              <dt>제작인원</dt>
+              <dd>1인(기여도 100%)</dd>
+            </dl>
+            <dl>
+              <dt>font</dt>
+              <dd>Hanwha, HanwhaGodic</dd>
+            </dl>
+            <dl>
+              <dt>제작기간</dt>
+              <dd>(약 2주)</dd>
+            </dl>
+            <dl>
+              <dt>제작스킬</dt>
+              <dd>
+                HTML5, CSS3, JavaScript, jQuery, AJAX, 그누보드(게시판), Adobe
+                Photoshop, illustrator, W3C 웹표준 통합 마크업 검사(html/css),
+                웹접근성검사(K-WAH), 크로스브라우징 완료
+              </dd>
+            </dl>
+            <img class="QR" src="./images/mobile_QR.png" alt="">
+          </div>
+        </div>
+        <div class="ms-section" id="right4">
+          <h1>Adventure Time<span>반응형</span></h1>
+          <div class="R_text">
+            <h2>어드벤처 타임</h2>
+            <a
+              href="https://rhguswjd0807.cafe24.com/media"
+              target="_blank"
+              title="반응형 웹 새창에 열림"
+              >VISIT SITE<span class="material-symbols-outlined">
+                arrow_forward
+              </span></a
+            >
+            <p>
+              미디어쿼리를 이용하여 모든 해상도에 대응하는 반응형 웹사이트 쿠바
+              여행지를 주제로 다양한 색감을 통해 주제와 부합하는 분위기를 강조
+              다양한 플러그인 사용과 역동적인 모션 강화
+            </p>
+            <dl>
+              <dt>color</dt>
+              <dd class="color"></dd>
+              <dd class="color"></dd>
+            </dl>
+            <dl>
+              <dt>제작인원</dt>
+              <dd>1인(기여도 100%)</dd>
+            </dl>
+            <dl>
+              <dt>font</dt>
+              <dd>Hanwha, HanwhaGodic</dd>
+            </dl>
+            <dl>
+              <dt>제작기간</dt>
+              <dd>약 2주</dd>
+            </dl>
+            <dl>
+              <dt>제작스킬</dt>
+              <dd>
+                HTML5, CSS3, JavaScript, jQuery, AJAX, 그누보드(게시판), Adobe
+                Photoshop, illustrator, W3C 웹표준 통합 마크업 검사(html/css),
+                웹접근성검사(K-WAH), 크로스브라우징 완료
+              </dd>
+            </dl>
+            <img class="QR" src="./images/R_QR.png" alt="">
+          </div> 
+        </div>
+      </div>
+    </div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="./js/jquery.multiscroll.js"></script>
+    <script src="./js/typer.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#myContainer").multiscroll({
+          sectionsColor: ["#000", "whitesmoke", "whitesmoke", "#152443"],
+          anchors: ["first", "second", "third", "fourth"],
+          menu: "#menu",
+          css3: true,
+          navigation: true,
+
+          //equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
+          easingcss3: "cubic-bezier(0.175, 0.885, 0.320, 1.275)",
+        });
+      });
+
+
+
+
+        window.onload=function(){   
+                var el       = document.querySelector('.type')
+                var options  = {
+                        text: 'HYUN   JUNG   KO', 
+            textSpeed: 95,
+            blinkSpeed: 0.06
+                }
+        
+                var instance = new tinytyper(el, options);
+                
+        }
+
+    </script>
+  </body>
+</html>
